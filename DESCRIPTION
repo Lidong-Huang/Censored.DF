@@ -28,3 +28,5 @@ Imports:
 Depends: 
     R (>= 2.10)
 LazyData: true
+URL: https://github.com/Lidong-Huang/Censored.DF
+BugReports: https://github.com/Lidong-Huang/Censored.DF/issues
