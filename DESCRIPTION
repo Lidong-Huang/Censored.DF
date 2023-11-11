@@ -1,0 +1,30 @@
+Package: Censored.DF
+Title: Distribution Fitting for Left Singly Censored Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Lidong", "Huang", , "ldhuangz@163.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This app compares the goodness of fitting with Lognormal and
+    Gamma distribution. It provides the AIC of maximum likelihood
+    estimation of both distributions from package ‘fitdistrplus’ as well
+    Shaprio-Wilk statistics and P value from package ‘EnvStats’. Besides,
+    the app also shows the cumulative probability function (CDF) and Q-Q
+    plot fitting. Final decision about the data follow Lognormal or Gamma
+    depends on above computing results. Generally, smaller AIC, larger P
+    value, and closer line to the scatter in CDF/Q-Q plot mean the more
+    likely the data follow that distribution.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    DT,
+    EnvStats,
+    fitdistrplus,
+    pkgload,
+    shiny,
+    spsComps
+Depends: 
+    R (>= 2.10)
+LazyData: true
